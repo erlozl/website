@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ul ,li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: #000;
+}
+
+.container {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.row::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.col-1 {
+	width: 6.894198%;
+}
+.col-2 {
+	width: 15.35836%;
+}
+.col-3 {
+	width: 23.82253%;
+}
+.col-4 {
+	width: 32.28669%;
+}
+.col-5 {
+	width: 40.75085%;
+}
+.col-6 {
+	width: 49.21502%;
+}
+.col-7 {
+	width: 57.67918%;
+}
+.col-8 {
+	width: 66.14334%;
+}
+.col-9 {
+	width: 74.60751%;
+}
+.col-10 {
+	width: 83.07167%;
+}
+.col-11 {
+	width: 91.53584%;
+}
+.col-12 {
+	width: 100%;
+}
+
+div[class|=col] {
+	margin-right: 1.569966%;
+	float: left;
+}
+
+div[class|=col]:last-child {
+	margin-right: 0;
+}
+
+.flat {
+	float: right;
+}
+

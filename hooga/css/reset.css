@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ul ,li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: #000;
+}
+img {
+	width: 100%;
+	vertical-align: top;
+}
+/*
+.col-1 {
+	width: 80px;
+}
+.col-2 {
+	width: 180px;
+}
+.col-3 {
+	width: 280px;
+}
+.col-4 {
+	width: 380px;
+}
+.col-5 {
+	width: 480px;
+}
+.col-6 {
+	width: 580px;
+}
+.col-7 {
+	width: 680px;
+}
+.col-8 {
+	width: 780px;
+}
+.col-9 {
+	width: 880px;
+} 
+.col-10 {
+	width: 980px;
+}
+.col-11 {
+	width: 1080px;
+}
+.col-12 {
+	width: 1180px;
+}
+
+div[class|=col] {
+	margin-right: 20px;
+	float: left;
+}
+
+div[class|=col]:last-child {
+  margin-right: 0;
+}
+*/
+.row::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.col-1 {
+	width: 6.779661%;
+}
+.col-2 {
+	width: 15.25424%;
+}
+.col-3 {
+	width: 23.72881%;
+}
+.col-4 {
+	width: 32.20339%;
+}
+.col-5 {
+	width: 40.67797%;
+}
+.col-6 {
+	width: 49.15254%;
+}
+.col-7 {
+	width: 57.62712%;
+}
+.col-8 {
+	width: 66.10169%;
+}
+.col-9 {
+	width: 74.57627%;
+} 
+.col-10 {
+	width: 83.05085%;
+}
+.col-11 {
+	width: 91.52542%;
+}
+.col-12 {
+	width: 100%;
+}
+
+div[class|=col] {
+	margin-right: 1.694915%;
+	float: left;
+}
+
+div[class|=col]:last-child {
+  margin-right: 0;
+}
+.flat {
+	float: right;
+}
+
+/*media*/
+
+.col-s-1 {
+	width: 6.779661%;
+}
+.col-s-2 {
+	width: 15.25424%;
+}
+.col-s-3 {
+	width: 23.72881%;
+}
+.col-s-4 {
+	width: 32.20339%;
+}
+.col-s-5 {
+	width: 40.67797%;
+}
+.col-s-6 {
+	width: 49.15254%;
+}
+.col-s-7 {
+	width: 57.62712%;
+}
+.col-s-8 {
+	width: 66.10169%;
+}
+.col-s-9 {
+	width: 74.57627%;
+} 
+.col-s-10 {
+	width: 83.05085%;
+}
+.col-s-11 {
+	width: 91.52542%;
+}
+.col-s-12 {
+	width: 100%;
+}
+
+div[class|=col-s] {
+	margin-right: 1.694915%;
+	float: left;
+}
+
+div[class|=col-s]:last-child {
+  margin-right: 0;
+}

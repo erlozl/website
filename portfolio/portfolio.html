@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>이은지's 포트폴리오</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <!-- favicon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- bootstrap icon css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!-- swiper slider css  -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <!-- portfolio reset css -->
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+    <!-- portfolio css -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+    ></script>
+    <!-- green sock js  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- swiper slider js  -->
+    <script type="text/javascript" src="js/queryloader2.js"></script>
+    <!-- queryloader -->
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
+    <!-- portfolio js -->
+  </head>
+  <body>
+    <div id="mouse"></div>
+    <!-- mouse -->
+    <div class="load_bg">
+      <div class="loading">
+        <div class="loading_text">Loading...</div>
+        <div class="loading_circle"></div>
+      </div>
+    </div>
+    <!-- <div class="scroll">TOP</div> -->
+    <div id="wrap">
+      <div id="header">
+        <div class="head clearfix">
+          <div class="head_icon">
+            <a href="#">riozi</a>
+          </div>
+          <div class="head_menu">
+            <div class="hmenu">
+              <div class="hopen"></div>
+            </div>
+            <div class="hmenu_category">
+              <div class="hclose">
+                <i class="bi bi-x-lg"></i>
+              </div>
+              <ul class="hmenu_cty row">
+                <li>
+                  <a href="#">home</a>
+                </li>
+                <li>
+                  <a href="#">about</a>
+                </li>
+                <li><a href="#">portfolio</a></li>
+                <li>
+                  <a href="#">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header -->
+      <div id="full_content" class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <section id="nav">
+              <div class="nav_cont column">
+                <div class="nav_bg"><img src="img/moon_bg.png" /></div>
+                <div class="nav_tit">
+                  <h1 date-text="portfolio">portfolio</h1>
+                </div>
+                <div class="nav_txt">
+                  <p>by lee eun ji</p>
+                </div>
+                <div class="nav_icon">
+                  <i class="bi bi-mouse"></i>
+                </div>
+              </div>
+            </section>
+            <!-- nav -->
+          </div>
+          <div class="swiper-slide">
+            <section id="about" date-text="about">
+              <div class="container row_btwn column_s">
+                <div class="about_left col-4">
+                  <div class="about_box">
+                    <div class="about_img col-12">
+                      <img src="img/about.jpg" data-depth="1.5" />
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="pfi_cont col-12">
+                      <h4>My Coding Memory</h4>
+                      <p>
+                        <a
+                          target="_blank"
+                          href="https://blog.naver.com/hgzasji27"
+                          >https://blog.naver.com/hgzasji27</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="about_right col-8">
+                  <div class="about_intro">
+                    <h3>MOTTO - 시련은 있되, 실패는 없다</h3>
+                  </div>
+                  <div class="about_cont">
+                    <div class="row_first">
+                      <div class="about_pfi col-5">
+                        <div class="cont_tit">
+                          <h4><i class="bi bi-folder2"></i>profile</h4>
+                        </div>
+                        <div class="pfi_cont">
+                          <p>
+                            <span class="pfi_stit">name</span>이은지<br />(Lee
+                            Eun Ji)
+                          </p>
+                          <p><span class="pfi_stit">age</span>29</p>
+                          <p>
+                            <span class="pfi_stit">email</span
+                            >erlozl.0121@gamail.com
+                          </p>
+                        </div>
+                      </div>
+                      <div class="about_cer col-5">
+                        <div class="cont_tit">
+                          <h4><i class="bi bi-folder2"></i>certificate</h4>
+                        </div>
+                        <div class="pfi_cont">
+                          <p>웹디자인 기능사(필기)</p>
+                          <p>미용사 면허증</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- about_pfi -->
+                    <div class="about_edt col-11">
+                      <div class="cont_tit">
+                        <h4><i class="bi bi-folder2"></i>education</h4>
+                      </div>
+                      <div class="pfi_cont">
+                        <p>
+                          2021.04~08스마트기기UI/UX웹디자인(웹퍼블리셔)과정 수료
+                        </p>
+                        <p>2012~2014 부산 동주대학교 졸업</p>
+                        <p>2009~2011 거제 중앙고등학교 졸업</p>
+                      </div>
+                    </div>
+                    <!-- about_edt -->
+                    <div class="about_skl col-11">
+                      <div class="cont_tit">
+                        <h4><i class="bi bi-folder2"></i>skill</h4>
+                      </div>
+                      <div class="ski_cont">
+                        <div class="row_btwn">
+                          <div class="s_progress">
+                            <div class="s_img">
+                              <img src="img/icon/htmlicon.png" />
+                            </div>
+                            <div class="s_pgbar">
+                              <div
+                                class="s_pg s_pg1"
+                                limit="85"
+                                speed="40"
+                                delay="0.5"
+                              ></div>
+                            </div>
+                          </div>
+                          <div class="s_progress">
+                            <div class="s_img">
+                              <img src="img/icon/cssicon.png" />
+                            </div>
+                            <div class="s_pgbar">
+                              <div
+                                class="s_pg s_pg2"
+                                limit="80"
+                                speed="40"
+                                delay="0.5"
+                              ></div>
+                            </div>
+                          </div>
+                          <div class="s_progress">
+                            <div class="s_img">
+                              <img src="img/icon/jsicon.png" />
+                            </div>
+                            <div class="s_pgbar">
+                              <div
+                                class="s_pg s_pg3"
+                                limit="60"
+                                speed="40"
+                                delay="0.5"
+                              ></div>
+                            </div>
+                          </div>
+                          <div class="s_progress">
+                            <div class="s_img">
+                              <img src="img/icon/psicon.png" />
+                            </div>
+                            <div class="s_pgbar">
+                              <div
+                                class="s_pg s_pg4"
+                                limit="70"
+                                speed="40"
+                                delay="0.5"
+                              ></div>
+                            </div>
+                          </div>
+                          <div class="s_progress">
+                            <div class="s_img">
+                              <img src="img/icon/aiicon.png" />
+                            </div>
+                            <div class="s_pgbar">
+                              <div
+                                class="s_pg s_pg5"
+                                limit="60"
+                                speed="40"
+                                delay="0.5"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- about_skill -->
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- about -->
+          </div>
+          <div class="swiper-slide">
+            <section id="portfolio" date-text="portfolio">
+              <div class="swiper-container" id="pfo_slider">
+                <div class="swiper-wrapper" id="slider_2">
+                  <div class="swiper-slide pfo_page pfo_page1">
+                    <div class="row column_s">
+                      <div class="pfo_cont">
+                        <div class="pfo_left pfo_left1 col-3">
+                          <div class="pfo_tit">
+                            <h3>1. byredo</h3>
+                          </div>
+                          <div class="pfo_stit">
+                            <h4>PC / RESPONSIVE<br />web site</h4>
+                          </div>
+                        </div>
+                        <div class="pfo_mid col-6">
+                          <div class="pfo_bg">
+                            <a
+                              class="pfo_img1"
+                              href="http://www.kahjig12.cafe24.com/portfolio/byredo/byredo.html"
+                              target="_blank"
+                              ><img src="img/etc/computer.png"
+                            /></a>
+                          </div>
+                          <div class="pfo_bg2">
+                            <a
+                              class="pfo_img1_1"
+                              href="http://www.kahjig12.cafe24.com/portfolio/byredo/byredo.html"
+                              target="_blank"
+                              ><img src="img/etc/phone.png"
+                            /></a>
+                          </div>
+                        </div>
+                        <div class="pfo_right col-3 column">
+                          <div class="pfo_rtop">
+                            <div class="pfo_cont1">
+                              <p>publishing 100%</p>
+                            </div>
+                            <div class="pfo_cont2">
+                              <span class="pfi_stit">period</span>
+                              <p>2021.7.17 ~ 2021.7.25</p>
+                            </div>
+                            <div class="pfo_cont3">
+                              <span class="pfi_stit">program</span>
+                              <div class="pfo_cont2bx">
+                                <span>html</span>
+                                <span>css</span>
+                                <span>js</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="pfo_rbtm">
+                            <a
+                              class="pfo_button"
+                              href="https://github.com/hgzasji27/portfolio/tree/master/byredo"
+                              target="_blank"
+                              >code check</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide pfo_page pfo_page2">
+                    <div class="row column_s">
+                      <div class="pfo_cont">
+                        <div class="pfo_left pfo_left2 col-3">
+                          <div class="pfo_tit">
+                            <h3>2. hooga</h3>
+                          </div>
+                          <div class="pfo_stit">
+                            <h4>PC / RESPONSIVE<br />web site</h4>
+                          </div>
+                        </div>
+                        <div class="pfo_mid col-6">
+                          <div class="pfo_bg">
+                            <a
+                              class="pfo_img2"
+                              href="http://www.kahjig12.cafe24.com/portfolio/hooga/hooga.html"
+                              ><img src="img/etc/computer.png"
+                            /></a>
+                          </div>
+                        </div>
+                        <div class="pfo_right col-3 column">
+                          <div class="pfo_rtop">
+                            <div class="pfo_cont1">
+                              <p>publishing 100%</p>
+                            </div>
+                            <div class="pfo_cont2">
+                              <span class="pfi_stit">period</span>
+                              <p>2021.7.1 ~ 2021.7.16</p>
+                            </div>
+                            <div class="pfo_cont3">
+                              <span class="pfi_stit">program</span>
+                              <div class="pfo_cont2bx">
+                                <span>html</span>
+                                <span>css</span>
+                                <span>js</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="pfo_rbtm">
+                            <a
+                              class="pfo_button"
+                              href="https://github.com/hgzasji27/portfolio/tree/master/hooga"
+                              target="_blank"
+                              >code check</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide pfo_page pfo_page3">
+                    <div class="row column_s">
+                      <div class="pfo_cont">
+                        <div class="pfo_left pfo_left3 col-3">
+                          <div class="pfo_tit">
+                            <h3>3. cgv</h3>
+                          </div>
+                          <div class="pfo_stit">
+                            <h4>PC web site</h4>
+                          </div>
+                        </div>
+                        <div class="pfo_mid col-6">
+                          <div class="pfo_bg">
+                            <a
+                              class="pfo_img3"
+                              href="http://www.kahjig12.cafe24.com/portfolio/cgv/cgv.html"
+                              target="_blank"
+                              ><img src="img/etc/computer.png"
+                            /></a>
+                          </div>
+                        </div>
+                        <div class="pfo_right col-3 column">
+                          <div class="pfo_rtop">
+                            <div class="pfo_cont1">
+                              <p>publishing 100%</p>
+                            </div>
+                            <div class="pfo_cont2">
+                              <span class="pfi_stit">period</span>
+                              <p>2021.7.26 ~ 2021.7.31</p>
+                            </div>
+                            <div class="pfo_cont3">
+                              <span class="pfi_stit">program</span>
+                              <div class="pfo_cont2bx">
+                                <span>html</span>
+                                <span>css</span>
+                                <span>js</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="pfo_rbtm">
+                            <a
+                              class="pfo_button"
+                              href="https://github.com/hgzasji27/portfolio/tree/master/cgv"
+                              target="_blank"
+                              >code check</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide pfo_page pfo_page4">
+                    <div class="row column_s">
+                      <div class="pfo_cont">
+                        <div class="pfo_left pfo_left4 col-3">
+                          <div class="pfo_tit">
+                            <h3>4. discovery</h3>
+                          </div>
+                          <div class="pfo_stit">
+                            <h4>PC web site</h4>
+                          </div>
+                        </div>
+                        <div class="pfo_mid col-6">
+                          <div class="pfo_bg">
+                            <a
+                              class="pfo_img4"
+                              href="http://www.kahjig12.cafe24.com/portfolio/discovery/discovery.html"
+                              target="_blank"
+                              ><img src="img/etc/computer.png"
+                            /></a>
+                          </div>
+                        </div>
+                        <div class="pfo_right col-3 column">
+                          <div class="pfo_rtop">
+                            <div class="pfo_cont1">
+                              <p>publishing 100%</p>
+                            </div>
+                            <div class="pfo_cont2">
+                              <span class="pfi_stit">period</span>
+                              <p>2021.6.12 ~ 2021.6.26</p>
+                            </div>
+                            <div class="pfo_cont3">
+                              <span class="pfi_stit">program</span>
+                              <div class="pfo_cont2bx">
+                                <span>html</span>
+                                <span>css</span>
+                                <span>js</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="pfo_rbtm">
+                            <a
+                              class="pfo_button"
+                              href="https://github.com/hgzasji27/portfolio/tree/master/discovery"
+                              target="_blank"
+                              >code check</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide pfo_page pfo_page5">
+                    <div class="row column_s">
+                      <div class="pfo_cont">
+                        <div class="pfo_left pfo_left5 col-3">
+                          <div class="pfo_tit">
+                            <h3>My portfolio</h3>
+                          </div>
+                          <div class="pfo_stit">
+                            <h4>PC / RESPONSIVE<br />web site</h4>
+                          </div>
+                        </div>
+                        <div class="pfo_mid col-6">
+                          <div class="pfo_bg">
+                            <a
+                              class="pfo_mimg1"
+                              href="http://www.kahjig12.cafe24.com/portfolio/portfolio.html"
+                              target="_blank"
+                              ><img src="img/etc/computer.png"
+                            /></a>
+                          </div>
+                          <div class="pfo_bg1">
+                            <a
+                              class="pfo_mimg2"
+                              href="http://www.kahjig12.cafe24.com/portfolio/portfolio.html"
+                              target="_blank"
+                              ><img src="img/etc/laptop.png"
+                            /></a>
+                          </div>
+                          <div class="pfo_bg2">
+                            <a
+                              class="pfo_mimg3"
+                              href="http://www.kahjig12.cafe24.com/portfolio/portfolio.html"
+                              target="_blank"
+                              ><img src="img/etc/phone.png"
+                            /></a>
+                          </div>
+                        </div>
+                        <div class="pfo_right col-3 column">
+                          <div class="pfo_rtop">
+                            <div class="pfo_cont1">
+                              <p>publishing 100%</p>
+                            </div>
+                            <div class="pfo_cont2">
+                              <span class="pfi_stit">period</span>
+                              <p>2021.7.17 ~ 2021.7.25</p>
+                            </div>
+                            <div class="pfo_cont3">
+                              <span class="pfi_stit">program</span>
+                              <div class="pfo_cont2bx">
+                                <span>html</span>
+                                <span>css</span>
+                                <span>js</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="pfo_rbtm">
+                            <a
+                              class="pfo_button"
+                              href="https://github.com/hgzasji27/portfolio"
+                              target="_blank"
+                              >code check</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination" id="pfo_pagination"></div>
+                <div class="swiper-button-prev" id="pfo_prev">
+                  <i class="bi bi-caret-left"></i>
+                </div>
+                <div class="swiper-button-next" id="pfo_next">
+                  <i class="bi bi-caret-right"></i>
+                </div>
+              </div>
+            </section>
+            <!-- portfolio -->
+          </div>
+          <div class="swiper-slide">
+            <section id="contact" date-text="contact">
+              <div class="cont_top">
+                <div class="ctop_img">
+                  <img src="img/contact_bg.png" />
+                </div>
+                <div class="ctop_mail">
+                  <span><i class="bi bi-envelope"></i>mail</span>
+                  <p>erlozl.0121<br />@gmail.com</p>
+                </div>
+                <div class="ctop_call">
+                  <span><i class="bi bi-telephone"></i>call</span>
+                  <p>010 3018 4609</p>
+                </div>
+              </div>
+              <div class="cont_btm">
+                <div>
+                  <p>
+                    ⓒ 2021 LEE EUN JI All Rights Reserved. All rights reserved.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <!-- contact -->
+          </div>
+        </div>
+        <div id="full_pagination" class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- wrap -->
+  </body>
+</html>
