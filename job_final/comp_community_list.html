@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>커뮤니티</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <!--헤더-->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav_top">
+        <a class="navbar-brand" href="comp_index.html">봉티드</a>
+      </div>
+      <div class="navbar-nav">
+        <ul class="nav_left">
+          <li class="nav-item">
+            <a class="nav-link nav_active" href="comp_emp_info.html">채용 정보</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comp_user_open_resume.html">공개 이력서 열람</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comp_resume_management.html">지원 현황</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn_active" href="comp_community_list.html">커뮤니티</a>
+          </li>
+        </ul>
+        <ul class="nav_right">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="comp_login.html" role="button" data-bs-toggle="dropdown">로그인/회원가입</a>
+            <ul class="nav-item-menu dropdown-menu">
+              <li><a class="dropdown-item" href="comp_info.html">마이 페이지</a></li>
+              <li><a class="dropdown-item" href="#">로그아웃</a></li>
+            </ul>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav_company_btn" href="user_index.html">개인서비스</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--헤더-->
+
+  <!--메인-->
+  <!-- 각자 페이지 name 작성-->
+  <main class="community_list common_bg">
+    <div class="container mt-3">
+      <!-- container 건들지 말기 -->
+
+      <div class="community_search">
+        <form action="#" class="d-flex">
+          <input class="search form-control me-2" type="text" placeholder="검색어를 입력해주세요" />
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+        <form action="comp_community_write.html">
+          <button type="submit" class="btn btn-primary">작성하기</button>
+        </form>
+      </div>
+
+      <div class="company_inner_box_fluid">
+        <div class="community-comment">
+          <h2>커뮤니티</h2>
+          <br>
+          <p>다양한 사람을 만나고 생각의 폭을 넓혀보세요.</p>
+        </div>
+        <img class="community_gif " src="/image/com_img/community.gif" alt="community-gif">
+      </div>
+
+      <div class="board">
+        <div class="inner_box_board mt-3">
+          <div class="each_board">
+            <a href="comp_community_detail.html">
+              <img class="speech_png " src="/image/com_img/speech.png" alt="speech_png">
+              <div class="title">개발이 너무 하고 싶어요.</div>
+              <div class="content">안녕하세요. 제가 고민이 너무 많아서 작성합니다.</div>
+              <div class="info_write">
+                <ul>
+                  <li class="write_user">nammmmu</li>
+                  <li class="write_created-at">2022-05-30</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="inner_box_board mt-3">
+          <div class="each_board">
+            <a href="comp_community_detail.html">
+              <img class="speech_png " src="/image/com_img/speech.png" alt="speech_png">
+              <div class="title">개발이 너무 하고 싶어요.</div>
+              <div class="content">안녕하세요. 제가 고민이 너무 많아서 작성합니다.</div>
+              <div class="info_write">
+                <ul>
+                  <li class="write_user">nammmmu</li>
+                  <li class="write_created_at">2022-05-30</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="inner_box_button mt-5">
+        <ul class="pagination d-flex justify-content-center">
+          <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <!--메인-->
+
+  <!--푸터-->
+  <footer>
+    <div class="bg-light p-5 text-center">
+      <ul>
+        <li>© 2023. Group 6 team-project</li>
+        <li>j,n,l,c</li>
+        <li>All rights reserved.</li>
+      </ul>
+    </div>
+  </footer>
+  <!--푸터-->
+</body>
+
+</html>

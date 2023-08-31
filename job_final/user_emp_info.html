@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>채용 정보</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!--헤더-->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav_top">
+          <a class="navbar-brand" href="user_index.html">봉티드</a>
+          <form class="d-flex">
+            <input
+              class="search form-control me-2"
+              type="text"
+              placeholder="검색어를 입력해주세요"
+            />
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+        <div class="navbar-nav">
+          <ul class="nav_left">
+            <li class="nav-item">
+              <a class="nav-link btn_active" href="user_emp_info.html">채용 정보</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="user_comp_recommend.html">기업 추천</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="user_resume_management.html">지원 현황</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="user_community_list.html">커뮤니티</a>
+            </li>
+          </ul>
+          <ul class="nav_right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="user_login.html" role="button" data-bs-toggle="dropdown">로그인/회원가입</a>
+              <ul class="nav-item-menu dropdown-menu">
+                <li><a class="dropdown-item" href="user_mypage.html">마이 페이지</a></li>
+                <li><a class="dropdown-item" href="#">로그아웃</a></li>
+              </ul>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_user_btn" href="comp_index.html">기업서비스</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--헤더-->
+    
+    <!-- 메인 -->
+    <!-- 각자 페이지 main 클래스에 name 작성-->
+    <!-- main 클래스에 background-color를 넣을거면 class="common_bg" 넣어주기 -->
+    <main class="emp_info main_page">
+      <div class="container">
+          <!-- container 건들지 말기 -->
+          <!-- 여기서부터 시작 -->
+        <div class="position_box">
+            <div class="position_tab"> 
+                <ul class="position_category">
+                    <li>
+                        <a href="#" class="">전체</a>
+                    </li>
+                    <li>
+                        <a href="#" class="">서버 백엔드 개발자</a>
+                    </li>
+                    <li>
+                        <a href="#" class="position_active">프론트 엔드 개발자</a>
+                    </li>
+                    <li>
+                        <a href="#" class="">웹 풀스택 개발자</a>
+                    </li>
+                    <li>
+                        <a href="#" class="">안드로이드 개발자</a>
+                    </li>
+                    <li>
+                        <a href="#">IOS개발자</a>
+                    </li>
+                    <li>
+                        <a href="#">크로스 플랫폼 개발자</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="position_menu">
+                <li class="position_skill com_skill position_active">
+                    <span class="skill_box">MySQL</span>
+                    <span class="skill_box">Spring</span>
+                    <span class="skill_box">Java</span>
+                    <span class="skill_box">HTML/CSS</span>
+                    <span class="skill_box">JavaScript</span>
+                    <span class="skill_box">React</span>
+                </li>
+
+                <li class="position_skill com_skill">
+                    <span class="skill_box">MySQL</span>
+                    <span class="skill_box">Spring</span>
+                    <span class="skill_box">Java</span>
+
+                </li>
+
+                <li class="position_skill com_skill">
+                    <span class="skill_box">HTML/CSS</span>
+                    <span class="skill_box">JavaScript</span>
+                    <span class="skill_box">React</span>
+                </li>
+
+                <li class="position_skill com_skill">
+                    <span class="skill_box">
+                        4
+                    </span>
+                </li>
+                <li class="position_skill com_skill">
+                    <span class="skill_box">
+                        5
+                    </spa>
+                </li>
+                <li class="position_skill com_skill">
+                    <span class="skill_box">
+                        6
+                    </span>
+                </li>
+                <li class="position_skill com_skill">
+                    <span class="skill_box">
+                        7
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="position_select">
+            <select class="select select_skill">
+                <option disabled selected>기술스택</option>
+                <option>java</option>
+                <option>javaScript</option>
+            </select>
+            <select class="select select_edu">
+                <option disabled selected>경력</option>
+                <option>java</option>
+                <option>javaScript</option>
+            </select>
+            <select class="select select_adr">
+                <option disabled selected>지역</option>
+                <option>java</option>
+                <option>javaScript</option>
+            </select>
+        </div>
+        <div class="main_box">
+          <ul class="com_cont com_box">
+            <li class="comp_item">
+              <a href="user_job_opening_apply.html">
+                <ul class="comp_cont">
+                  <li class="comp_img">
+                    <img src="image/company_img/comp_img01.png" alt="기업01">
+                  </li>
+                  <li class="com_name">
+                      모트렉스
+                  </li>
+                  <li class="com_tit">
+                    <h4>웹개발(백엔드,프론트엔드)</43>
+                  </li>
+                  <li class="com_txt">
+                    CSS3·jQuery·Linux·JavaScript
+                  </li>
+                  <li class="com_etc">
+                    <span class="com_adr">서울 영등포구</span>
+                    <span class="com_car">경력 5-15년</span>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="comp_item">
+              <a href="user_job_opening_apply.html">
+                <ul class="comp_cont">
+                  <li class="comp_img">
+                    <img src="image/company_img/comp_img01.png" alt="기업01">
+                  </li>
+                  <li class="com_name">
+                      모트렉스
+                  </li>
+                  <li class="com_tit">
+                    <h4>웹개발(백엔드,프론트엔드)</43>
+                  </li>
+                  <li class="com_txt">
+                    CSS3·jQuery·Linux·JavaScript
+                  </li>
+                  <li class="com_etc">
+                    <span class="com_adr">서울 영등포구</span>
+                    <span class="com_car">경력 5-15년</span>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="comp_item">
+              <a href="user_job_opening_apply.html">
+                <ul class="comp_cont">
+                  <li class="comp_img">
+                    <img src="image/company_img/comp_img01.png" alt="기업01">
+                  </li>
+                  <li class="com_name">
+                      모트렉스
+                  </li>
+                  <li class="com_tit">
+                    <h4>웹개발(백엔드,프론트엔드)</43>
+                  </li>
+                  <li class="com_txt">
+                    CSS3·jQuery·Linux·JavaScript
+                  </li>
+                  <li class="com_etc">
+                    <span class="com_adr">서울 영등포구</span>
+                    <span class="com_car">경력 5-15년</span>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="comp_item">
+              <a href="user_job_opening_apply.html">
+                <ul class="comp_cont">
+                  <li class="comp_img">
+                    <img src="image/company_img/comp_img01.png" alt="기업01">
+                  </li>
+                  <li class="com_name">
+                      모트렉스
+                  </li>
+                  <li class="com_tit">
+                    <h4>웹개발(백엔드,프론트엔드)</43>
+                  </li>
+                  <li class="com_txt">
+                    CSS3·jQuery·Linux·JavaScript
+                  </li>
+                  <li class="com_etc">
+                    <span class="com_adr">서울 영등포구</span>
+                    <span class="com_car">경력 5-15년</span>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="comp_item">
+              <a href="user_job_opening_apply.html">
+                <ul class="comp_cont">
+                  <li class="comp_img">
+                    <img src="image/company_img/comp_img01.png" alt="기업01">
+                  </li>
+                  <li class="com_name">
+                      모트렉스
+                  </li>
+                  <li class="com_tit">
+                    <h4>웹개발(백엔드,프론트엔드)</43>
+                  </li>
+                  <li class="com_txt">
+                    CSS3·jQuery·Linux·JavaScript
+                  </li>
+                  <li class="com_etc">
+                    <span class="com_adr">서울 영등포구</span>
+                    <span class="com_car">경력 5-15년</span>
+                  </li>
+                </ul>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- 메인 -->
+
+    <!--푸터-->
+    <footer>
+      <div class="bg-light p-5 text-center">
+        <ul>
+          <li>© 2023. Group 6 team-project</li>
+          <li>j,n,l,c</li>
+          <li>All rights reserved.</li>
+        </ul>
+      </div>
+    </footer>
+    <!--푸터-->
+  </body>
+</html>
